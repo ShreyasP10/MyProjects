@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Windows 11</title>
+</head>
+
+<body class="body">
+
+    <div id="taskbar">
+
+        <div class="section1 hoverr">
+
+            <!-- <div class="fa-solid fa-cloud"></div> -->
+
+            <div class="sec2">
+                <div class="sec-p">
+
+                    <div class="fa-solid fa-cloud"></div>
+                    <div>
+                        <div class="sec2-p1"  i>80°F<br></div>
+                        <div class="sec2-p2" style="font-weight: 400; color: rgb(140, 140, 139);">Cloudy</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section2">
+            <span class="start hover">
+                <img src="startButton.png" alt="Start" height="40px "
+                        class="border">
+            </span>
+            <div class="search "> 
+                <i class="fa-solid fa-magnifying-glass" style="cursor: pointer;"></i>
+                <input type="text" placeholder="Search" class="search-input">
+                <img src="bing.png" alt="Open In Edge" height="20px" class="search-img" style="cursor: pointer;">
+            </div>
+            <span class="task-view hover">
+                <img src="task_view.png" alt="Task-View" height="40px" class="border">
+            </span>
+            <span class="file hover">
+                <img src="fileExplorer.png" alt="File Explorer" height="40px" class="border">
+            </span>
+            <span class="store hover">
+                <img src="store.png" alt="M Store" height="40px "
+                    class="border">
+            </span>
+            <span class="edge hover">
+                <img src="edge.png" alt="Edge" height="40px" class="border">
+            </span>
+            <span class="vscode hover">
+                <img src="vs_code.png" alt="VS Code" height="40px" class="border">
+            </span>
+            <span class="setting hover">
+                <img src="win11_setting.png" alt="Setting" height="40px" class="border">
+            </span>
+        </div>
+
+        <div class="section3">
+            <i class="fa-solid fa-angle-up  " style="cursor: pointer;"></i>
+            <div class="language hoverr">
+                <div class="lang">
+                    <p class="langp1">ENG</p>
+                    <p class="langp2" style="text-align: center;">IN</p>
+                </div>
+            </div>
+            <div class="container hoverr ">
+                <div class="cont">
+                    <div class="fa-solid fa-wifi"></div>
+                    <div class="fa-solid fa-volume-high"></div>
+                    <div class="fa-solid fa-battery-quarter"></div>
+                </div>
+            </div>
+            <div class="time-date hoverr">
+                <div class="t-d">
+                    <div id="time"></div>
+                    <div id="date"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js">
+
+    </script>
+
+</body>
+
+</html>
