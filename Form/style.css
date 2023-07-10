@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:   sans-serif;
+  font-weight: 700;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6e6e6;
+}
+
+#SignUp {
+  width: 500px;
+  height: 500px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  background-color: white;
+  display: grid;
+  grid-template-rows: repeat(7, 1fr);
+  row-gap: 20px;
+  background: linear-gradient(217deg, rgba(0, 255, 0, .8), rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, rgba(0, 0, 255, .8), rgba(0, 255, 0, 0) 70.71%), linear-gradient(336deg, rgba(255, 0, 0, .8), rgba(0, 0, 255, 0) 70.71%);
+  ;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px 10px;
+  font-family: sans-serif Times, 'Times New Roman', serif;
+}
+
+input {
+  padding: 5px 10px;
+  margin: 0px 20px;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  outline: none;
+  border-bottom: 1.5px solid black;
+  background-color: transparent;
+  color: black;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+input::placeholder {
+  color: black;
+  font-weight: 600;
+  font-family: Helvetica, sans-serif;
+}
+
+input:focus {
+  border-bottom: 2px solid whitesmoke;
+  background-color: white;
+  border: 2px solid rgb(17, 255, 0);
+}
+
+div {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.hr {
+  height: 5px;
+  width: 500px;
+  background-color: cyan;
+  border: 1px solid red;
+  align-self: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: rgb(0, 247, 255);
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.login {
+  margin: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:active {
+  color: #000000;
+}
+
+/***** Log In Form *****/
+
+
+#LogIn {
+  width: 500px;
+  height: 500px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  background-color: white;
+  display: grid;
+  grid-template-rows: repeat(7, 1fr);
+  row-gap: 20px;
+  /* background: linear-gradient(217deg, rgba(0, 255, 0, .8), rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, rgba(0, 0, 255, .8), rgba(0, 255, 0, 0) 70.71%), linear-gradient(336deg, rgba(255, 0, 0, .8), rgba(0, 0, 255, 0) 70.71%); */
+  background-image: linear-gradient(to bottom right, #ff4e4e 0 15%, #f8ff64 40% 60%, #00ce1a 85% 100%);
+}
+
+.forgotpassword {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.loginbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.forgotpassword > a {
+  padding: 5px 20px;
+}
+
