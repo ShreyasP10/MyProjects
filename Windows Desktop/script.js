@@ -12,6 +12,7 @@
     document.getElementById('time').innerHTML = hours + ':' + minutes + ' ' + meridiem;
   }
 
+
   function addZeroPadding(num) { 
     return (num < 10 ? '0' : '') + num;
   }
