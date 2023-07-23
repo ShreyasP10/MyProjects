@@ -29,7 +29,6 @@
     display: flex;
     align-items: center;
     cursor: pointer;
-    /* background-color: cyan; */
 }
 .sec-p {
     display: flex;
@@ -53,7 +52,6 @@
 }
 
 .search input{
-    /* background-color: transparent; */
     border: 0px solid  transparent;
     padding: 0px 0px;
     outline: none;
@@ -99,6 +97,5 @@
     background-color: rgb(255, 255, 255);
     cursor: pointer;
     border-radius: 5px;
-    /* border: 0.1px solid rgb(179, 207, 254); */
 }
 
