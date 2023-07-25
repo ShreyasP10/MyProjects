@@ -1,5 +1,4 @@
-
-  function updatetime() {
+function updatetime() {
     var currentTime = new Date();
     var hours = currentTime.getHours();
     var minutes = currentTime.getMinutes();
@@ -20,7 +19,7 @@
 
 
 
-  setInterval(updatetime, 1000);
+setInterval(updatetime, 1000);
 
 
 function formatDate(date) {
