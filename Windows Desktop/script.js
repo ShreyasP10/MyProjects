@@ -18,7 +18,6 @@ function updatetime() {
 
 
 
-
 setInterval(updatetime, 1000);
 
 
